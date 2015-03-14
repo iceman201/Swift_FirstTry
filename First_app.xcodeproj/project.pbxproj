@@ -13,6 +13,7 @@
 		05606B271A8F62D400293F95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05606B261A8F62D400293F95 /* Images.xcassets */; };
 		05606B2A1A8F62D400293F95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05606B281A8F62D400293F95 /* LaunchScreen.xib */; };
 		05606B361A8F62D400293F95 /* First_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05606B351A8F62D400293F95 /* First_appTests.swift */; };
+		058B9EE41AB45CFE00F3D7A5 /* WhoIam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058B9EE31AB45CFE00F3D7A5 /* WhoIam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		05606B2F1A8F62D400293F95 /* First_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = First_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05606B341A8F62D400293F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05606B351A8F62D400293F95 /* First_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_appTests.swift; sourceTree = "<group>"; };
+		058B9EE31AB45CFE00F3D7A5 /* WhoIam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoIam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,7 @@
 				05606B1F1A8F62D400293F95 /* AppDelegate.swift */,
 				05606B211A8F62D400293F95 /* ViewController.swift */,
 				05606B231A8F62D400293F95 /* Main.storyboard */,
-				05606B261A8F62D400293F95 /* Images.xcassets */,
-				05606B281A8F62D400293F95 /* LaunchScreen.xib */,
+				058B9EE31AB45CFE00F3D7A5 /* WhoIam.swift */,
 				05606B1D1A8F62D400293F95 /* Supporting Files */,
 			);
 			path = First_app;
@@ -90,6 +91,8 @@
 		05606B1D1A8F62D400293F95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05606B261A8F62D400293F95 /* Images.xcassets */,
+				05606B281A8F62D400293F95 /* LaunchScreen.xib */,
 				05606B1E1A8F62D400293F95 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 			files = (
 				05606B221A8F62D400293F95 /* ViewController.swift in Sources */,
 				05606B201A8F62D400293F95 /* AppDelegate.swift in Sources */,
+				058B9EE41AB45CFE00F3D7A5 /* WhoIam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

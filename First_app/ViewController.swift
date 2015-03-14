@@ -12,26 +12,16 @@ class ViewController: UIViewController {
     /*
     Global variable
     */
-    @IBOutlet var Disaplay_label: UILabel!
-
-    @IBOutlet var Input_field: UITextField!
-    
-    @IBAction func Input_enter(sender: UITextField) {
-        Disaplay_label.text = sender.text
-        sender.text = nil
-    }
-    
-    @IBAction func Enter(sender: UIButton) {
-        Disaplay_label.text = Input_field.text
-        Input_field.text = nil
-    }
-    @IBAction func Clean_B(sender: UIButton) {
-        Input_field.text = nil
-    }
-    
+    var bar_color = UIColor.whiteColor()
+    var bar_backGround = UIColor(red: 239/255, green: 49/255, blue: 37/255, alpha: 0)
     /*functions*/
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.tintColor = bar_color
+        self.navigationController?.navigationBar.barTintColor = bar_backGround
+        self.navigationController?.navigationBar.tintColor = bar_color
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
