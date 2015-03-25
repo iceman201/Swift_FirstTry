@@ -14,6 +14,8 @@
 		05606B2A1A8F62D400293F95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05606B281A8F62D400293F95 /* LaunchScreen.xib */; };
 		05606B361A8F62D400293F95 /* First_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05606B351A8F62D400293F95 /* First_appTests.swift */; };
 		058B9EE41AB45CFE00F3D7A5 /* WhoIam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058B9EE31AB45CFE00F3D7A5 /* WhoIam.swift */; };
+		05C0ECC51AC2C0040019493C /* PartOfMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C0ECC41AC2C0040019493C /* PartOfMe.swift */; };
+		05C5A8371AC2B7A200D753ED /* ContectMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C5A8361AC2B7A200D753ED /* ContectMe.swift */; };
 		05D525EA1AB7D1D0007F6ED6 /* MySkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D525E91AB7D1D0007F6ED6 /* MySkills.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		05606B341A8F62D400293F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05606B351A8F62D400293F95 /* First_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_appTests.swift; sourceTree = "<group>"; };
 		058B9EE31AB45CFE00F3D7A5 /* WhoIam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoIam.swift; sourceTree = "<group>"; };
+		05C0ECC41AC2C0040019493C /* PartOfMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartOfMe.swift; sourceTree = "<group>"; };
+		05C5A8361AC2B7A200D753ED /* ContectMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContectMe.swift; sourceTree = "<group>"; };
 		05D525E91AB7D1D0007F6ED6 /* MySkills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySkills.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,8 @@
 				05606B1F1A8F62D400293F95 /* AppDelegate.swift */,
 				05606B211A8F62D400293F95 /* ViewController.swift */,
 				05606B231A8F62D400293F95 /* Main.storyboard */,
+				05C0ECC41AC2C0040019493C /* PartOfMe.swift */,
+				05C5A8361AC2B7A200D753ED /* ContectMe.swift */,
 				05D525E91AB7D1D0007F6ED6 /* MySkills.swift */,
 				058B9EE31AB45CFE00F3D7A5 /* WhoIam.swift */,
 				05606B1D1A8F62D400293F95 /* Supporting Files */,
@@ -219,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05606B221A8F62D400293F95 /* ViewController.swift in Sources */,
+				05C0ECC51AC2C0040019493C /* PartOfMe.swift in Sources */,
 				05D525EA1AB7D1D0007F6ED6 /* MySkills.swift in Sources */,
+				05C5A8371AC2B7A200D753ED /* ContectMe.swift in Sources */,
 				05606B201A8F62D400293F95 /* AppDelegate.swift in Sources */,
 				058B9EE41AB45CFE00F3D7A5 /* WhoIam.swift in Sources */,
 			);
